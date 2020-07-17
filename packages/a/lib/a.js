@@ -3,5 +3,5 @@
 module.exports = a;
 
 function a() {
-  console.log("hi");
+  console.log("goodbye");
 }
