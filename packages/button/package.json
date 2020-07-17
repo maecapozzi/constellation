@@ -3,7 +3,5 @@
   "author": "",
   "description": "",
   "main": "dist/packages/button/button.js",
-  "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {}
+  "version": "1.1.0"
 }
