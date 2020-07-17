@@ -4,7 +4,7 @@
   "command": {
     "publish": {
       "message": "chore: release",
-      "allowBranch": ["master", "feature/"]
+      "allowBranch": ["master", "feature/", "configure-typescript"]
     }
   }
 }
