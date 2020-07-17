@@ -3,8 +3,8 @@
   "author": "maecapozzi <maecapozzi@gmail.com>",
   "version": "1.0.1-alpha.5",
   "description": "> TODO: description",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/src/button.js",
+  "types": "./dist/src/button.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json"
   },
