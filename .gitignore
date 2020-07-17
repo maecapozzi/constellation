@@ -1,1 +1,6 @@
+.vscode/*
+dist
+lerna-debug.log
 node_modules
+tsconfig.tsbuildinfo
+yarn-error.log

@@ -5,11 +5,18 @@
     "lerna": "^3.22.1"
   },
   "scripts": {
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "build": "tsc -p tsconfig.json"
   },
   "npmClient": "yarn",
   "useWorkspaces": true,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.43",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.9.7"
   }
 }
