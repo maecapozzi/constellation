@@ -1,15 +1,22 @@
 {
   "name": "constellation-components",
   "private": true,
-  "devDependencies": {
-    "lerna": "^3.22.1"
-  },
   "scripts": {
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "build": "tsc -p tsconfig.json"
   },
   "npmClient": "yarn",
   "useWorkspaces": true,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "@types/react": "^16.9.43",
+    "typescript": "^3.9.7"
   }
 }
