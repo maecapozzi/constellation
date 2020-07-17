@@ -2,8 +2,7 @@
   "name": "constellation-components",
   "private": true,
   "scripts": {
-    "lerna": "lerna",
-    "build": "tsc -p tsconfig.json"
+    "lerna": "lerna"
   },
   "npmClient": "yarn",
   "useWorkspaces": true,
