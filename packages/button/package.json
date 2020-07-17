@@ -8,5 +8,6 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json"
-  }
+  },
+  "gitHead": "1c99d86ac55fd5dc8f367abd8132c0f423469391"
 }
