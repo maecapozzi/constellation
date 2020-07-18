@@ -6,7 +6,7 @@
   "main": "./dist/src/button.js",
   "types": "./dist/src/button.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p ./tsconfig.json"
   },
   "homepage": "https://github.com/maecapozzi/constellation#readme",
   "license": "MIT",
