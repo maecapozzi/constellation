@@ -1,0 +1,8 @@
+{
+  "extends": "./config/tsconfig.json",
+  "include": ["./packages/**/*", "stories/**/*"],
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "rootDirs": ["packages/**", "stories"]
+  }
+}
