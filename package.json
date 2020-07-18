@@ -2,8 +2,11 @@
   "name": "constellation-components",
   "private": true,
   "scripts": {
+    "storybook": "start-storybook",
+    "build-packages": "yarn run ts-node build.ts ./packages && yarn format",
     "lerna": "lerna",
-    "storybook": "start-storybook"
+    "prettier": "prettier",
+    "format": "yarn prettier --write ."
   },
   "npmClient": "yarn",
   "useWorkspaces": true,
@@ -20,10 +23,14 @@
     "@storybook/addon-info": "^5.3.19",
     "@storybook/react": "^5.3.19",
     "@types/react": "^16.9.43",
+    "@types/which": "^1.3.2",
     "babel-loader": "^8.1.0",
+    "chalk": "^4.1.0",
     "lerna": "^3.22.1",
+    "prettier": "^2.0.5",
     "react-docgen-typescript-loader": "^3.7.2",
     "ts-loader": "^8.0.1",
+    "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   }
 }
