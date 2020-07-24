@@ -4,6 +4,7 @@
   "scripts": {
     "storybook": "start-storybook",
     "build-packages": "yarn run ts-node build.ts ./packages && yarn format",
+    "publish:canary": "yarn build-packages && lerna publish --canary",
     "lerna": "lerna",
     "prettier": "prettier",
     "format": "yarn prettier --write ."
