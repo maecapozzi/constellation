@@ -19,7 +19,9 @@ fs.readdirSync(args).map((dirName: string) => {
   }
 
   // Important! I don't think the dist dir will be re-generated if this file is present.
-  fs.unlinkSync(latestBuildDiagnostics);
+  if (fs.existsSync(latestBuildDiagnostics)) {
+    fs.unlinkSync(latestBuildDiagnostics);
+  }
 
   exec(`lerna run build`, (e, stdout, stderr) => {
     // TODO: Make less bad :scream:
