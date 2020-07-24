@@ -6,7 +6,8 @@
     "build-packages": "yarn run ts-node build.ts ./packages && yarn format",
     "lerna": "lerna",
     "prettier": "prettier",
-    "format": "yarn prettier --write ."
+    "format": "yarn prettier --write .",
+    "publish:canary": "yarn build-packages && yarn run lerna publish --canary --preid=canary"
   },
   "npmClient": "yarn",
   "useWorkspaces": true,

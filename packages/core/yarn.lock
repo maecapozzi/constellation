@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@constellation-components/button@^1.0.1-alpha.5":
-  version "1.0.1-alpha.5"
-  resolved "https://registry.yarnpkg.com/@constellation-components/button/-/button-1.0.1-alpha.5.tgz#483e790b5e1a962d92ac039e77fb832e18f0aba9"
-  integrity sha512-XYwXPh1F9k5rOkG7xiy+7SABiWqDTURqqfQx1eMFyKo+rLGpPFYqPaBd8HhF/FE0l5HTm4siHQArcNwkf2dwKg==
+"@constellation-components/button@1.1.2-canary.8":
+  version "1.1.2-canary.8"
+  resolved "https://registry.yarnpkg.com/@constellation-components/button/-/button-1.1.2-canary.8.tgz#55e73790dad7dce072ceb822daa6db312360cb9a"
+  integrity sha512-mtwuKKdIXypqeOjQ8ZeumW+BKqN8WZPyd2rHGGHzMAyIWle6WFK9jQwthLLnKesw8VyCz2oAitkiV1d5UOFmBA==

@@ -18,6 +18,6 @@
     "url": "git+https://github.com/maecapozzi/constellation.git"
   },
   "dependencies": {
-    "@constellation-components/button": "^1.0.1-alpha.5"
+    "@constellation-components/button": "1.1.2-canary.8"
   }
 }
