@@ -8,4 +8,5 @@
 const button = require('@constellation-components/button');
 
 // TODO: DEMONSTRATE API
+// We're doing it
 ```
