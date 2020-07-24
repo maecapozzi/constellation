@@ -1,10 +1,10 @@
 {
   "name": "@constellation-components/button",
   "author": "maecapozzi <maecapozzi@gmail.com>",
-  "version": "1.0.1-alpha.5",
+  "version": "1.1.2-canary.7+a119a34",
   "description": "> TODO: description",
-  "main": "./dist/button.js",
-  "types": "./dist/button.d.ts",
+  "main": "./dist/src/button.js",
+  "types": "./dist/src/button.d.ts",
   "scripts": {
     "build": "tsc -p ./tsconfig.json"
   },
@@ -16,5 +16,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maecapozzi/constellation.git"
-  }
+  },
+  "gitHead": "a119a34ab959f3d212f7b5c416ece5de1843dce2"
 }
