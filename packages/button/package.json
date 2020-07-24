@@ -1,13 +1,16 @@
 {
   "name": "@constellation-components/button",
   "author": "maecapozzi <maecapozzi@gmail.com>",
-  "version": "1.0.1-alpha.5",
+  "version": "1.0.2",
   "description": "> TODO: description",
-  "main": "./dist/src/button.js",
-  "types": "./dist/src/button.d.ts",
+  "main": "./dist/button.js",
+  "types": "./dist/button.d.ts",
   "scripts": {
     "build": "tsc -p ./tsconfig.json"
   },
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/maecapozzi/constellation#readme",
   "license": "MIT",
   "publishConfig": {
@@ -16,5 +19,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maecapozzi/constellation.git"
+  },
+  "dependencies": {
+    "reakit": "^1.1.2"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
   }
 }
