@@ -1,7 +1,7 @@
 {
   "name": "@constellation-components/button",
   "author": "maecapozzi <maecapozzi@gmail.com>",
-  "version": "1.0.1-beta.0",
+  "version": "1.0.2-beta.0",
   "description": "> TODO: description",
   "main": "./dist/button.js",
   "types": "./dist/button.d.ts",
